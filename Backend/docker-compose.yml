@@ -1,0 +1,12 @@
+﻿services:
+  bookstore.api:
+    image: bookstore.api
+    build:
+      context: .
+      dockerfile: BookStore.API/Dockerfile
+
+  bookstore.api-1:
+    image: bookstore.api-1
+    build:
+      context: .
+      dockerfile: BookStore.API/Dockerfile
